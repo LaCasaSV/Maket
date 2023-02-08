@@ -1,3 +1,9 @@
+body {
+margin: auto;
+width: 1000px;
+position: relative;
+}
+
 .container {
     position: center;
     width: 1000px;
@@ -20,7 +26,7 @@
     background: #E5E5E5;
 }
 
-.text_titel {
+.text_title {
     position: absolute;
     width: 282px;
     height: 49px;
@@ -106,4 +112,137 @@ hr {
 
     border: 1px solid #000000;
     transform: rotate(-0.17deg);
+}
+
+.form_container {
+
+}
+
+.form_fields {
+
+}
+
+.form_field_1 {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 300px;
+    top: 1758px;
+    
+    background: #C4C4C4;   
+}
+
+.form_field_2 {
+    position: absolute;
+    width: 400px;
+    height: 171px;
+    left: 300px;
+    top: 1850px;
+    
+    background: #C4C4C4;
+    
+}
+
+.form_title {
+    position: absolute;
+    width: 198px;
+    height: 66px;
+    left: 408px;
+    top: 1677px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+input {
+    position: absolute;
+    padding: 6px 85px 12px 19px; 
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;   
+    background-color: rgba(0, 255, 255, 0);
+    color: #000000;
+    
+}
+
+.form_button {
+    position: absolute;
+    width: 127px;
+    height: 46px;
+    left: 300px;
+    top: 2052px;
+
+
+    background: #C4C4C4;
+
+}
+
+.button {
+    padding: 19px 6px 31px 12px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    padding: 6px 31px 12px 19px;
+
+    color: #000000;
+}
+
+footer {
+    position: absolute;
+    width: 1000px;
+    height: 355px;
+    left: 0px;
+    top: 2183px;
+
+    background: #C4C4C4;
+}
+
+.contact {
+    position: absolute;
+    width: 604px;
+    height: 118px;
+    left: 59px;
+    top: 66px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.contact_2 {
+    position: absolute;
+    width: 290px;
+    height: 26px;
+    left: 312px;
+    top: 282px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
 }
