@@ -1,0 +1,36 @@
+.container {
+    position: center;
+    width: 1000px;
+    height: 623.38px;
+    left: 0px;
+    top: 93px;
+}
+
+.header {
+    position: center;
+    width: 1000px;
+    height: 93px;
+    left: 0px;
+    top: 0px;
+    background-color: #C4C4C4;
+}
+
+.content {
+    background: #E5E5E5;
+}
+
+.text {
+    position: absolute;
+    width: 282px;
+    height: 49px;
+    left: 359px;
+    top: 772px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+
+    color: #000000;
+}
